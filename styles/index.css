@@ -11,3 +11,51 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+section {
+  width: fit-content;
+  max-width: 40%;
+  padding: 1.5%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Futurist", sans-serif;
+  font-size: 60px;
+  color: #f87839;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Futurist", sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Georama", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: "Georama", sans-serif;
+  line-height: 1.5em;
+}
+
+ol > li {
+  font-family: "Georama", sans-serif;
+  font-weight: bold;
+}
+
+ol > li > ul {
+  list-style-type: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
