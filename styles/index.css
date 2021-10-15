@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Futurist";
+  src: url("../fonts/FUTRFW.TTF") format("truetype");
+}
+
+body {
+  background: url("../images/background_image.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
